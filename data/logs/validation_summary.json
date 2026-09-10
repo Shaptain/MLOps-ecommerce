@@ -1,0 +1,10 @@
+{
+  "validation_timestamp": "2026-09-10T20:36:48.614985",
+  "total_records_checked": 541909,
+  "invalid_quantity_count": 10624,
+  "invalid_price_count": 2517,
+  "missing_customer_id_count": 135080,
+  "cancelled_invoice_count": 9288,
+  "duplicate_row_count": 5268,
+  "total_rejected_rows_logged": 162777
+}

@@ -1,0 +1,15 @@
+{
+  "transformation_timestamp": "2026-09-10T20:39:02.209121",
+  "original_row_count": 541909,
+  "final_row_count": 392692,
+  "rows_removed_total": 149217,
+  "step_by_step_counts": {
+    "start": 541909,
+    "after_removing_cancelled": 532621,
+    "after_removing_invalid_quantity": 531285,
+    "after_removing_invalid_price": 530104,
+    "after_removing_missing_customerid": 397884,
+    "after_removing_duplicates": 392692,
+    "after_removing_invalid_dates": 392692
+  }
+}
