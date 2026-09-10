@@ -1,0 +1,10 @@
+[
+  {
+    "extraction_timestamp": "2026-09-10T20:30:41.522344",
+    "source_file": "data/raw/online_retail.xlsx",
+    "source_type": "UCI Online Retail Dataset (local file)",
+    "status": "SUCCESS",
+    "row_count": 541909,
+    "error": null
+  }
+]
