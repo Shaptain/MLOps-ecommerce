@@ -1,0 +1,10 @@
+[
+  {
+    "load_timestamp": "2026-09-10T23:47:47.094275",
+    "dim_customer_rows": 4338,
+    "dim_product_rows": 3665,
+    "dim_date_rows": 305,
+    "fact_sales_candidate_rows": 387841,
+    "fact_sales_newly_inserted": 387841
+  }
+]

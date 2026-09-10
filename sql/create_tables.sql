@@ -30,3 +30,17 @@ CREATE TABLE IF NOT EXISTS fact_sales (
     revenue         NUMERIC(12, 2),
     PRIMARY KEY (invoice_no, stock_code)
 );
+-- Analytical Data Mart: Customer Mart
+CREATE TABLE IF NOT EXISTS customer_mart (
+    customer_id         INTEGER PRIMARY KEY REFERENCES dim_customer(customer_id),
+    country             VARCHAR(100),
+    total_orders        INTEGER,
+    total_quantity      INTEGER,
+    total_revenue       NUMERIC(12, 2),
+    avg_order_value     NUMERIC(12, 2),
+    first_purchase_date DATE,
+    last_purchase_date  DATE,
+    recency_days        INTEGER,
+    frequency           INTEGER,
+    monetary            NUMERIC(12, 2)
+);
